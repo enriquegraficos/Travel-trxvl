@@ -39,7 +39,7 @@
 .slider .input-container input{
     display: flex;
     justify-content: center;
-    min-width: 378px;
+    min-width: 278px;
     height: 44px;
     background-color: transparent;
     border: 0px;
@@ -140,3 +140,16 @@
     font-size: 32px;
 }
 
+.slider .input-container input{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 44px;
+    /* background-color: transparent;
+    border: 0px;
+    margin: 8px 0 8px 16px ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:white; */
+
+}
