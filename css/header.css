@@ -37,13 +37,43 @@
 }
 
 
-@media only screen and (max-width: 50px) {
+.menu-icon{
+    display: none;
+    background-color: transparent;
+    border: 0px;
+    width: 18px;
+    height: 12px;
+}
+
+@media only screen and (max-width: 500px) {
     .container-navigation .container-logo img{
         margin: 24px 20px 24px 20px;
       
-     }}
+     }
      .container-navigation .container-menu{
+        display: none;
+        flex-direction: column;
         margin-right: 20px;
         margin-left: 0px;
         
     } 
+
+    .container-navigation .container-menu.activo{
+        display: block;
+        text-align: center;
+        flex-direction: column;
+        margin-right: 0px;
+        margin-left: 0px;
+        background-color: black;
+    }
+  
+
+    .menu-icon{
+        display: block;
+        border: 0px;
+        width: 18px;
+        height: 12px;
+        margin-right: 20px;
+        margin-left: 20px;
+        
+    }} 
