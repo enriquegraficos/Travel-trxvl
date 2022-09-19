@@ -60,5 +60,14 @@
         margin-top: 20px;
         margin-left: 20px;
     }
+
+    .categories .container-categories .text-description-categories{
+        font-size: 16px;
+        color: black;
+        opacity: 0.4;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        
+    }
 }
     
