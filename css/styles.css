@@ -2,14 +2,34 @@
 @import url(./slider.css);
 @import url(./categories.css);
 @import url(./top-vacations-container.css);
+@import url(./scrollbar.css);
 
 *{
-     margin: 0px;
-    padding: 0px; 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
-    background-image:url(../img/background.png) ;
-    background-repeat: none;
+
+    background-image: url(../img/cover.jpeg);
     background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    height: 841px;
+
 }
+
+
+@media only screen and (max-width: 600px) {
+    body{
+
+        background-image: url(../img/cover.jpeg);
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center ;
+        height: 670px;
+    
+    }
+}
+

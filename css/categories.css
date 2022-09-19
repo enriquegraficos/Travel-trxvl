@@ -8,7 +8,7 @@
 }
 
 .categories{
-    margin-top: 32px;
+    /* margin-top: 32px;
     margin-left: 100px;
     margin-right: 100px;
     display: grid;
@@ -16,13 +16,25 @@
     justify-content: center;
     grid-template-rows: auto;
     grid-template-columns: repeat(auto-fit, minmax(78px, 1fr));
-    gap: 40px;
+    gap: 40px; */
     
+    margin-top: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    overflow-x: auto;
+    scroll-padding-inline: 0;
+    overscroll-behavior-inline: contain;
 }
 
 .categories .container-categories img{
     width: 32px;
     height: 32px;
+    border-color: yellow;
 
 }
 

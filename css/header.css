@@ -1,6 +1,5 @@
 
 
-
 .container-navigation{
     display: grid;
     grid-template-rows: auto;
@@ -59,12 +58,16 @@
     } 
 
     .container-navigation .container-menu.activo{
-        display: block;
+        display: flex;
         text-align: center;
         flex-direction: column;
         margin-right: 0px;
         margin-left: 0px;
         background-color: black;
+        cursor: pointer;
+        gap: 25px;
+        margin-bottom: 15px;
+        width: 100%;
     }
   
 
@@ -75,5 +78,4 @@
         height: 12px;
         margin-right: 20px;
         margin-left: 20px;
-        
     }} 
