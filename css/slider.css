@@ -1,5 +1,10 @@
 
-.slider{
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+    .slider{
     /* display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
@@ -35,6 +40,7 @@
     border-radius: 16px;
     backdrop-filter: blur(32px);
 }
+
 
 .slider .input-container input{
     display: flex;
@@ -88,16 +94,16 @@
 
 
 .slider .input-container .boton{
-    display: flex;
+   display: flex;
     width: 147px;
     height:60px;
     gap: 10px;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 
 .slider .input-container .button-primary{
+   
     width: 147px;
     height:42px;
     background-color: white;
@@ -141,7 +147,10 @@
     font-size: 32px;
 }
 
-
+.slider .input-container .input-container-principal{
+    border-radius: 16px;
+    backdrop-filter: blur(32px);
+}
 .slider .input-container{
     margin-top: 40px;
     display: grid;
@@ -159,52 +168,64 @@
     justify-content: center;
     width: auto;
     height: 44px;
-    backdrop-filter: blur(32px);   
+    /* backdrop-filter: blur(32px);    */
     border-radius: 16px;
+    color: white;
+    outline: none;
 }
 
 .slider .input-container .check-in{
     display: flex;
-    width: 147px;
+    width: auto;
     height:60px;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
+    backdrop-filter: blur(32px);
 
 }
 
 .slider .input-container .check-out{
-    display: block;
-    width: 147px;
+    display: flex;
+    width: auto;
     height:60px;
     gap: 10px;
     justify-content: center;
     align-items: center;
-
+    border-radius: 16px;
+    backdrop-filter: blur(32px);
 }
 
 
 .slider .input-container .rooms{
     display: flex;
-    width: 147px;
+    width: auto;
     height:60px;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    border-radius: 16px;
+    backdrop-filter: blur(32px);
 }
 
 .slider .input-container .button-primary{
-    width: 300px;
+    display: flex;
+    min-width: 370px;
     height:42px;
+    justify-content: center;
     background-color: #2659C3;
     border-radius: 32px;
     border: 0px;
+    
 }
 
 .slider .input-container .text-search{
     font-size: 16px;
     color: white;
     font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
