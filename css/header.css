@@ -44,7 +44,10 @@
     height: 12px;
 }
 
-@media only screen and (max-width: 500px) {
+.container-menu-secundary{
+    display: none;
+}
+@media only screen and (max-width: 515px) {
     .container-navigation .container-logo img{
         margin: 24px 20px 24px 20px;
       
@@ -59,18 +62,49 @@
 
     .container-navigation .container-menu.activo{
         display: flex;
-        text-align: center;
+        align-items: center;
         flex-direction: column;
-        margin-right: 0px;
-        margin-left: 0px;
-        background-color: black;
+        position: fixed;
+        background-color: #2659C3;
         cursor: pointer;
         gap: 25px;
-        margin-bottom: 15px;
+        margin-bottom: 35px;
         width: 100%;
+        
     }
   
+    .container-menu-secundary{
+        display: flex;
+        justify-content: center;
+        gap:36px ;
+        align-content: center;
+        position: fixed;
+        bottom: 0;
+        height: 86px;
+        background-color: white;
+        width: 100%;
+    }
 
+    .container-menu-secundary li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        gap: 15px;
+
+    }
+
+    .container-menu-secundary li a{
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 12px;
+        text-decoration: none;
+        margin-top: 45px;
+    }
     .menu-icon{
         display: block;
         border: 0px;
@@ -78,4 +112,36 @@
         height: 12px;
         margin-right: 20px;
         margin-left: 20px;
-    }} 
+    }
+
+    .icon-home{
+        background-image: url(../img/categories/menu/home.svg);
+        width:24px;
+        height: 24px;
+        background-repeat:no-repeat;
+        background-position: center center;
+    }
+
+    .icon-packages{
+        background-image: url(../img/categories/menu/suitcase.svg);
+        width:24px;
+        height: 24px;
+        background-repeat:no-repeat;
+        background-position: center center;
+    }
+    .icon-stays{
+        background-image: url(../img/categories/menu/stay.svg);
+        width:24px;
+        height: 24px;
+        background-repeat:no-repeat;
+        background-position: center center;
+    }
+
+    .icon-flights{
+        background-image: url(../img/categories/menu/flights.svg);
+        width:24px;
+        height: 24px;
+        background-repeat:no-repeat;
+        background-position: center center;
+    }
+} 
