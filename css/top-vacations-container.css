@@ -22,16 +22,13 @@
     scroll-padding-inline: 0;
     overscroll-behavior-inline: contain;
 
-
-   
 }
 
-
 .top-vacations-container .container-card{
-    /* position: relative; */
-    display: inline-block;
-  
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+   
 }
 
 .top-vacations-container img{
@@ -43,23 +40,23 @@
 
 .top-vacations-container img:hover{
     background-color: white;
-    border: 0px;
+    border: 1px;
     /* opacity: 0.4; */
-    
+
 }
 
+
+
 .top-vacations-container .text-description-card{
-    position: absolute;
-    bottom: 23px;
-    left: 24px;
-    right: 112px;
+    margin-top: -50px;
+    margin-left: 30px;
     font-size: 24px;
     color: white;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:970px) {
     .top-vacations-container{
 
         margin-left: 20px;

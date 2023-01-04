@@ -75,25 +75,40 @@
   
     .container-menu-secundary{
         display: flex;
+        flex-wrap: nowrap;
         justify-content: center;
-        gap:36px ;
-        align-content: center;
+        gap:30px ;
+        align-items: center;
         position: fixed;
         bottom: 0;
         height: 86px;
-        background-color: white;
         width: 100%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        /* padding-top: 20px;
+        padding-bottom: 20px; */
+        /* margin-top: 10px; */
+       background-color: rgba(255, 255, 255);
     }
 
+    .icon-menu{
+        opacity: .4;
+    }
     .container-menu-secundary li{
-        display: flex;
+        list-style: none;
+        width: 64px;
+        height: 46px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* display: flex;
         justify-content: center;
         align-items: center;
         list-style: none;
         text-align: center;
         width: 36px;
         height: 36px;
-        gap: 15px;
+        gap: 15px; */
 
     }
 
@@ -112,7 +127,9 @@
         height: 12px;
         margin-right: 20px;
         margin-left: 20px;
+        
     }
+
 
     .icon-home{
         background-image: url(../img/categories/menu/home.svg);
